@@ -18,10 +18,10 @@ def open():
 						        #print("Enter a valid application")
 
 master = Tk()
-master.title("cortona daddy")
+master.title("Test File")
 master.geometry("300x250")
 master.configure(bg="cyan")
-Label(master,text="Give your Application name :",bg="cyan").grid(row=3,column=5)
+Label(master,text="Enter Application name :",bg="cyan").grid(row=3,column=5)
 e=Entry(master)
 e.grid(row=3,column=6)
 Button(master, text='open', width=5, command=open).grid(row=4,column=6)
